@@ -38,54 +38,52 @@
 
     <section id="content" class="container my-5 px-4">
         <h2 class="h3">Default Title</h2>
-        <p class="text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, officia sed optio obcaecati deleniti illum placeat? Et omnis iusto inventore debitis mollitia incidunt, facilis earum consequuntur quae eveniet cumque. Minima!
+        <p class="text-justify mb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, officia sed optio obcaecati deleniti
+            illum placeat? Et omnis iusto inventore debitis mollitia incidunt, facilis earum consequuntur quae eveniet
+            cumque. Minima!
         </p>
 
-        <div class="row justify-content-around">
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="box text-center bg-dark text-light p-3 m-1">
-                    <i data-feather="user"></i>
-                    <h4>Lipsum 1</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <div class="row align-items-center justify-content-center">
+            <div class="col-12 col-md-5 box bg-dark text-light">
+                <div class="row justify-content-between mb-4">
+                    <h4>Card Title 1</h4>
+                    <i class="box-icon" data-feather="headphones"></i>
                 </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <a href="#">Read more...</a>
+                </p>
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="box text-center bg-dark text-light p-3 m-1">
-                    <i data-feather="headphones"></i>
-                    <h4>Lipsum 2</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+            <div class="col-12 col-md-5 box bg-dark text-light">
+                <div class="row justify-content-between mb-4">
+                    <h4>Card Title 2</h4>
+                    <i class="box-icon" data-feather="user"></i>
                 </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <a href="#">Read more...</a>
+                </p>
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="box text-center bg-dark text-light p-3 m-1">
-                    <i data-feather="heart"></i>
-                    <h4>Lipsum 3</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+            <div class="col-12 col-md-5 box bg-dark text-light">
+                <div class="row justify-content-between mb-4">
+                    <h4>Card Title 3</h4>
+                    <i class="box-icon" data-feather="heart"></i>
                 </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <a href="#">Read more...</a>
+                </p>
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="box text-center bg-dark text-light p-3 m-1">
-                    <i data-feather="edit-3"></i>
-                    <h4>Lipsum 4</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+            <div class="col-12 col-md-5 box bg-dark text-light">
+                <div class="row justify-content-between mb-4">
+                    <h4>Card Title 4</h4>
+                    <i class="box-icon" data-feather="edit-3"></i>
                 </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <a href="#">Read more...</a>
+                </p>
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="box text-center bg-dark text-light p-3 m-1">
-                    <i data-feather="download"></i>
-                    <h4>Lipsum 5</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="box text-center bg-dark text-light p-3 m-1">
-                    <i data-feather="smartphone"></i>
-                    <h4>Lipsum 6</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-            </div>
-        </div>    
 
     </section>
 
@@ -96,7 +94,7 @@
             <div class="input-group input-group-lg">
                 <input type="email" placeholder="Your best email :)" id="email" class="form-control">
                 <div class="input-group-append">
-                    <button class="btn btn-dark">
+                    <button class="btn btn-dark" id="email-submit" type="submit">
                         <span class="d-none d-md-inline">Send</span>
                         <i data-feather="send"></i>
                     </button>
@@ -105,12 +103,12 @@
         </form>
     </section>
 
-    <footer class="bg-dark px-4 py-3 text-center text-light">
+    <footer class="bg-dark text-light px-4 py-3 text-center">
         &copy; Gustavo Teixeira - All rights reserved
     </footer>
 
 
-    <!-- Feather Icon Script-->
+    
     <script src="javascript/script.js"></script>
     <!-- JQuery, Popper.js and Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
