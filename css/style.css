@@ -4,7 +4,7 @@
     #home, #newsletter {
         height: 50%;
     }
-    #home h1 {
+    #home h1, #newsletter h2 {
         font-size: 2.5em;
     }
     #home p {
@@ -18,7 +18,7 @@
     #home, #newsletter {
         height: 75%;
     }
-    #home h1 {
+    #home h1, #newsletter h2 {
         font-size: 4em;
     }
     #home p {
@@ -30,17 +30,20 @@ body, html {
     height: 100%;
 }
 
-header {
+header, footer {
+    background-color: #212121;
+}
+
+header a {
     font-size: 1.2em;
 }
 
-#home, #newsletter{
+#home, #newsletter {
     color: white;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    
     background-size: cover;
     background-color: #ff9a01;
     background-repeat: no-repeat;
@@ -54,23 +57,24 @@ header {
     background-image: linear-gradient(50deg, #ffa55cbb, #94522679), url(../img/newsletter.jpg);
 }
 
-.box{
+.box {
     margin: 0.4em;
     max-width: 522px;
     padding: 1.5em 2em;
     border-radius: 0.3em;
+    background-image: linear-gradient(60deg, #242424 70%, #212121 70%);
 }
 
-.box h4{
+.box h4 {
     margin: 0;
 }
 
-.box-icon{
+.box-icon {
     width: 3em;
     height: 3em;
     color: #5d5d5a;
 }
-.box a{
-    color: #ffa45c;
 
+.box a {
+    color: #ffa45c;
 }
